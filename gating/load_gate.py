@@ -3,7 +3,7 @@ import torch.nn as nn
 from torchvision import models, transforms
 from PIL import Image
 
-GATE_PATH = "/Users/kashishvarmaa/Documents/7 Sem/SASM/gating/mobilenet_gate.pth"
+GATE_PATH = "/Users/kashishvarmaa/Documents/7 Sem/Summer Internship/SASM/gating/mobilenet_gate.pth"
 DEVICE = torch.device("mps" if torch.backends.mps.is_available() else "cuda" if torch.cuda.is_available() else "cpu")
 
 # Define transform to match training
